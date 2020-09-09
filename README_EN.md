@@ -29,7 +29,7 @@ host_port = '8000'
 
 duration = 5
 ```
-Keterangan:
+Values:
 ```host_ip```: IP address of the server / host.
 ```host_port```: Port for the service to be used.
 ```duration```: Service auto-restart time (in minutes).
