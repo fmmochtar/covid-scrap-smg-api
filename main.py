@@ -38,7 +38,7 @@ kasus_total.insert(1, s_digit2[1].text)
 kasus_total.insert(2, s_digit2[3].text)
 kasus_total.insert(3, s_digit2[5].text)
 kasus_total.insert(4, s_digit_parse[9][0])
-kasus_total.insert(5, s_digit2[6].text)
+kasus_total.insert(5, s_digit_parse[11][0])
 
 # Number of cases
 n_treatment = [ s_digit_parse[3][0], s_digit2[0].text, s_digit2[1].text ]
