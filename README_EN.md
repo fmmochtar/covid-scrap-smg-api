@@ -34,7 +34,7 @@ Values:
 ```host_port```: Port for the service to be used.
 ```duration```: Service auto-restart time (in minutes).
 
-Notes: in order to expose this service, replace ```host_ip``` with ```0.0.0.0```.
+Notes: in order to expose this service, make sure the ```host_ip``` value is ```0.0.0.0```.
 
 ## API Endpoint
 API endpoints can be accessed and viewed in ```http://localhost:8000/docs```.
