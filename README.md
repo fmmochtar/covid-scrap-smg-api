@@ -24,7 +24,7 @@ Konfigurasi dasar untuk menjalankan service langsung pada file ```run.py```.
 Berikut adalah konfigurasi secara default.
 
 ```
-host_ip = '127.0.0.1'
+host_ip = '0.0.0.0'
 host_port = '8000'
 
 duration = 5
@@ -34,7 +34,7 @@ Keterangan:
 ```host_port```: Port layanan yang ingin digunakan.
 ```duration```: Waktu selang untuk restart layanan berkala (dalam menit).
 
-Catatan: untuk melakukan expose service ini, ganti ```host_ip``` menjadi ```0.0.0.0```.
+Catatan: untuk melakukan expose service ini, pastikan nilai dari ```host_ip``` adalah ```0.0.0.0```.
 
 ## API Endpoint
 
