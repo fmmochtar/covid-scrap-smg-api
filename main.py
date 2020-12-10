@@ -14,7 +14,7 @@ import sys
 app = FastAPI()
 
 # Web scrap
-scrap_url = 'https://siagacorona.semarangkota.go.id/halaman/odppdpv2'
+scrap_url = 'https://siagacorona.semarangkota.go.id/halaman/covid19'
 
 page = requests.get(scrap_url)
 soup = BeautifulSoup(page.text, 'html.parser')
