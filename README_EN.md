@@ -3,7 +3,7 @@
 [Bahasa Indonesia](https://github.com/fmmochtar/covid-scrap-smg-api) | English
 
 ## Description
-This web-scraping web API can be used to grab HTML data from COVID-19 web tracker in Semarang [COVID-19 Kota Semarang](https://siagacorona.semarangkota.go.id/halaman/odppdpv2) which shows number of cases of COVID-19 in Semarang. Data taken from the website will be processed and forwarded as an API data that can be (re)used by other web or applications.
+This web-scraping web API can be used to scrape HTML data from COVID-19 web tracker in Semarang [COVID-19 Kota Semarang](https://siagacorona.semarangkota.go.id/halaman/odppdpv2) which shows number of cases of COVID-19 in Semarang. The Data taken from the website will be processed and forwarded as an API data that can be (re)used by other web or applications.
 
 This app is written using Python, utilizes **FastAPI** as an API back-end, and **uvicorn** for the ASGI.
 
