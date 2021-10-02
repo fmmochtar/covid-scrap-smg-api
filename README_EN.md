@@ -20,7 +20,7 @@ pip3 install -r requirements.txt
 
 ## Configuration
 
-The configuration can be edited directly inside ```run.py``` file.
+Create `.env` file to configure the app. Take a look at `.env.example` for reference.
 Default values are written below.
 
 ```

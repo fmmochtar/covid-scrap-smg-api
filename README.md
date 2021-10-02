@@ -20,7 +20,7 @@ pip3 install -r requirements.txt
 
 ## Konfigurasi
 
-Konfigurasi dasar untuk menjalankan service langsung pada file ```run.py```.
+Konfigurasi dasar untuk menjalankan service dapat diatur menggunakan file `.env`. Bisa salin file `.env.example` lalu ubah namanya menjadi `.env` 
 Berikut adalah konfigurasi secara default.
 
 ```
