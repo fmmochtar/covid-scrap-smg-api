@@ -24,8 +24,8 @@ title = soup.title.text
 # note: latest web template revision is on 2020-09
 stat = soup.find('div',{'class':'container-fluid'}).find('div', {'class':'row'})
 s_text = stat.find_all('div', {'class': 'stat-text'})
-s_digit = stat.find_all('div', {'class': 'stat-digit color-white' }, {'style': 'font-size:30px'})
-s_digit2 = stat.find_all('span', {'style': 'font-size:26px'})
+s_digit = stat.find_all('div', {'class': 'stat-digit color-white' }, {'style': 'font-size:25px'})
+s_digit2 = stat.find_all('span', {'style': 'font-size:20px'})
 
 # store the parsed data inside the list
 s_digit_parse = []
