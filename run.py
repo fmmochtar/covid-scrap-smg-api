@@ -4,6 +4,7 @@ import asyncio
 import os
 import sys
 import signal
+import logging as log
 
 # configuration
 host_ip = '0.0.0.0'
@@ -30,7 +31,7 @@ class Timer:
         self._task.cancel()
 
 async def run_uvicorn():
-    print("Running FastAPI ...")
+    log.info("Running FastAPI ...")
     os.system("uvicorn main:app --host=" + host_ip +" --port=" + host_port +" &")
 
 async def main():
@@ -49,7 +50,7 @@ try:
     loop.run_until_complete(main())
 except KeyboardInterrupt:
     signal.signal(signal.SIGINT, signal_handler)
-    print('Terminating service ...')
+    log.info('Terminating service ...')
     os.system("pkill uvicorn")
 finally:
     loop.run_until_complete(loop.shutdown_asyncgens())
