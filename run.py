@@ -6,8 +6,8 @@ import sys
 import signal
 
 # configuration
-host_ip = '0.0.0.0'
-host_port = '8000'
+host_ip = os.getenv('HOST_IP', '0.0.0.0')
+host_port = os.getenv('HOST_PORT', '8000')
 
 # restart time (in minutes)
 duration = 5
